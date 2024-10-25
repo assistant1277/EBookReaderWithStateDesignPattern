@@ -45,6 +45,6 @@ namespace EBookReaderWithStateDesignPattern.Controllers
 //and user interaction logic like which button is pressed and stay in controller
 //business logic like what happens when power button is pressed is handled by service
 //it makes code easier to maintain and understand because each part has clear job means what to do
-//by having controller you can easily change how user interacts with system like moving from console app to graphical user interface without changing business logic in service layer
-//and if you want to add new features or handle more complex user inputs like multiple buttons or advanced settings then having controller allows you to manage these and
-//change without touching main logic in service
+//by having controller you can easily change how user interacts with system like moving from console app to graphical user interface
+//without changing business logic in service layer and if you want to add new features or handle more complex user inputs
+//like multiple buttons or advanced settings then having controller allows you to manage these and change without touching main logic in service
