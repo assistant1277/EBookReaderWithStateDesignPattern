@@ -31,7 +31,7 @@ namespace EBookReaderWithStateDesignPattern.Services
             _currentState = OffState; 
         }
 
-        //below method changes current state of ebook reader to new state passed to it
+        //below method change current state of ebook reader to new state passed to it
         public void SetState(IEBookReaderState newState)
         {
             _currentState = newState; //switches current state to new state provided
@@ -45,7 +45,7 @@ namespace EBookReaderWithStateDesignPattern.Services
         }
 
         //below method is called when user want to start reading and
-        //it asks current state what to do when reading is requested
+        //it ask current state what to do when reading is requested
         public string StartReading()
         {
             return _currentState.StartReading();//call current states start reading action

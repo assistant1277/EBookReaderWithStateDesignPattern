@@ -19,7 +19,7 @@ namespace EBookReaderWithStateDesignPattern.Models
             _readerService = readerService;
         }
 
-        //below method handle what happen when power button is pressed while reader is off and
+        //below method handle what happen when power button is press while reader is off and
         //it change state to reading and return message indicating reader is turning on
         public string PressPowerButton()
         {

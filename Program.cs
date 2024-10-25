@@ -10,7 +10,7 @@ namespace EBookReaderWithStateDesignPattern
         }
     }
 }
-//[*important]//state design pattern is used in this ebook reader to manage different modes states like reading,sleeping,off
+//[*important]State design pattern is used in this ebook reader to manage different modes states like reading,sleeping,off
 //means each state like reading,sleeping,off has its own class with specific rules and behaviors
 //and keeps code organized and easier to manage and each class only need to worry about it own state
 //and if we want to add new state in future like paused then we can simply create new class for it

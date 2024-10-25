@@ -20,19 +20,19 @@ namespace EBookReaderWithStateDesignPattern.Controllers
             _eBookReaderService = eBookReaderService;
         }
 
-        //below method is called when power button is pressed and it ask service to handle it and return message
+        //below method is called when power button is press and it ask service to handle it and return message
         public string PowerButtonPressed()
         {
             return _eBookReaderService.PressPowerButton();
         }
 
-        //below method is called when start reading button is pressed and it tells service to handle starting to read
+        //below method is called when start reading button is press and it tells service to handle starting to read
         public string StartReadingButtonPressed()
         {
             return _eBookReaderService.StartReading();
         }
 
-        //below method is called when stop reading button is pressed and it ask service to handle stopping reading
+        //below method is called when stop reading button is press and it ask service to handle stopping reading
         public string StopReadingButtonPressed()
         {
             return _eBookReaderService.StopReading();
@@ -47,5 +47,5 @@ namespace EBookReaderWithStateDesignPattern.Controllers
 //business logic like what happens when power button is pressed is handled by service
 //it makes code easier to maintain and understand because each part has clear job means what to do
 //by having controller you can easily change how user interacts with system like moving from console app to graphical user interface without changing business logic in service layer
-//and if you want to add new features or handle more complex user inputs like multiple buttons or advanced settings then having controller allows you to manage these
-//changes without touching main logic in service
+//and if you want to add new features or handle more complex user inputs like multiple buttons or advanced settings then having controller allows you to manage these and
+//change without touching main logic in service
