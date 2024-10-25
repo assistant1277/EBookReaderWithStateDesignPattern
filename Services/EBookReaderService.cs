@@ -31,7 +31,7 @@ namespace EBookReaderWithStateDesignPattern.Services
             _currentState = OffState; 
         }
 
-        //below method change current state of ebook reader to new state passed to it
+        //below method change current state of ebook reader to new state pass to it
         public void SetState(IEBookReaderState newState)
         {
             _currentState = newState; //switches current state to new state provided

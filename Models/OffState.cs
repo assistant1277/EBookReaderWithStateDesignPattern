@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace EBookReaderWithStateDesignPattern.Models
 {
-    //below class represent off state of ebook reader means reader is powered off
+    //below class represent off state of ebook reader means reader is power off
     public class OffState:IEBookReaderState
     {
         //below variable hold reference to eBookReaderService so we can switch states when needed
         private readonly EBookReaderService _readerService;
 
-        //constructor takes in eBookReaderService and assign it to private _readerService variable
+        //constructor take in eBookReaderService and assign it to private _readerService variable
         public OffState(EBookReaderService readerService)
         {
             _readerService = readerService;

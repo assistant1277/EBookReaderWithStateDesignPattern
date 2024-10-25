@@ -12,7 +12,7 @@ namespace EBookReaderWithStateDesignPattern.Models
         //below PressPowerButton method should describe what happen when power button is press in any state
         string PressPowerButton();
 
-        //below method should describe what happen when starting to read in any state
+        //below StartReading method should describe what happen when starting to read in any state
         string StartReading();
         string StopReading();
     }
